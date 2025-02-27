@@ -5,8 +5,8 @@ using System.Linq;
 
 public class TriangleSector : MonoBehaviour
 {
-    public MirrorDisc mirrorDisc;  // The Mirror Disc controlling this sector
-    public List<LightDisc> allLightDiscs; // All Light Discs in the puzzle
+    public MirrorDisc mirrorDisc; 
+    public List<LightDisc> allLightDiscs; 
     private bool isMoving = false;
 
     void Start()
